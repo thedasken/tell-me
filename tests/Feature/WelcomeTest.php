@@ -8,8 +8,8 @@ test('returns a successful response', function () {
     $response
         ->assertOk()
         ->assertSee(config('app.name'))
-        ->assertSee('Commencer gratuitement')
-        ->assertSee('Se connecter')
+        ->assertSee('Start for free')
+        ->assertSee('Log in')
         ->assertSee('resources/css/app.css')
         ->assertDontSee('Laravel has an incredibly rich ecosystem.');
 });
