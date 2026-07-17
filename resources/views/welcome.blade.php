@@ -60,7 +60,7 @@
                             <a href="{{ route('dashboard') }}"
                                 class="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-semibold text-accent-foreground shadow-sm transition hover:opacity-90"
                                 wire:navigate>
-                                {{ __('Open my diary') }}
+                                {{ __('Open my journal') }}
                                 <span aria-hidden="true">→</span>
                             </a>
                         @else
@@ -98,7 +98,8 @@
                                     <div>
                                         <p class="text-sm font-semibold text-zinc-900 dark:text-white">
                                             {{ __('My day') }}</p>
-                                        <p class="text-xs text-zinc-500 dark:text-zinc-400">{{ __('Mardi 17 juin') }}
+                                        <p class="text-xs text-zinc-500 dark:text-zinc-400">
+                                            {{ __('Tuesday, June 17th') }}
                                         </p>
                                     </div>
                                 </div>
@@ -193,7 +194,7 @@
                     <a href="{{ route('dashboard') }}"
                         class="inline-flex shrink-0 items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-semibold text-accent-foreground shadow-sm transition hover:opacity-90"
                         wire:navigate>
-                        {{ __('Retour à mon journal') }}
+                        {{ __('Open my journal') }}
                         <span aria-hidden="true">→</span>
                     </a>
                 @endguest
